@@ -1,0 +1,17 @@
+.alto-img{
+    height: 300px;
+}
+body{background-image: url(imagenes/backgroundImage1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.backgroundWhite{
+    background-color: rgba(255, 255, 255, 0.453);
+}
+.font-dark{
+    color: black;
+}
+.tablero{
+    margin-top: 2vh;
+}
