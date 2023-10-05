@@ -55,7 +55,7 @@ function mostrarDatos() {
     jugadores.forEach((element, i) => {
         let tr = document.createElement("tr");
         tr.innerHTML = `
-        <td> ${ i} </td>
+        <td> ${ i+1} </td>
         <td> ${ element.nombre} </td>
         <td> ${ element.nivel} </td>
         <td> ${element.intentos} </td>
