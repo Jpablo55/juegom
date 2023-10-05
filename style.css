@@ -1,7 +1,7 @@
 .alto-img{
     height: 300px;
 }
-body{background-image: url(../imagenes/backgroundImage1.jpg);
+body{background-image: url(imagenes/backgroundImage1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
    
