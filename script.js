@@ -253,7 +253,9 @@ function namePlayer(){
   btn_registrar.addEventListener("click", function(){
     let jugadorN = document.querySelector(".nombreJ");
     mostrarJugador.textContent = jugadorN.value;
+    let mostrarModal = document.querySelector(".modalNombre");
     mostrarModal.classList.remove(".show");
+    mostrarModal.style.display = "none";
 })
 }
 
